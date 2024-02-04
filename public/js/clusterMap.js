@@ -1,6 +1,6 @@
-let a = JSON.parse(camps);
+// let a = JSON.parse(camps);
 let markers = [];
-a.forEach((element) => {
+camps.forEach((element) => {
   let latlng = {};
   latlng.lat = element.geometry.coordinates[0];
   latlng.lng = element.geometry.coordinates[1];
